@@ -6,14 +6,14 @@
 module.exports = (() => {
     const config = {
         "info": {
-            "name": "Simply-Nitro",
+            "name": "Nitro simple",
             "authors": [{
-                "name": "joemama",
+                "name": "Beluga",
                 "discord_id": "69420",
                 "github_username": "respecting"
             },
 			{
-                "name": "joedada",
+                "name": "Belu-cool",
                 "discord_id": "42069",
                 "github_username": "3arthquak3"
             }],
@@ -24,17 +24,24 @@ module.exports = (() => {
         },
 		"changelog": [
 			{
-				"title": "Added profile banner",
+				"title": "Added profile BANNER",
 				"type": "added",
 				"items": [
 					"Added profile banner customization! Supported image formats: JPG, PNG, GIF. Recommended size is 600x240."
 				]
 			},
 			{
-				"title": "Fixed profile avatar",
+				"title": "Pfp profile discord FIXED 1.2",
 				"type": "fixed",
 				"items": [
-					"Fixed profile avatar didn't show up after Discord API update."
+					"Fixer tsara le profile avatar v1.5."
+					{
+				"title": "EFA CORRIGE LE BUG RENY!",
+				"type": "added",
+				"items": [
+					"Made by NotBeluga#7978."
+				]
+			},
 				]
 			}
 		],
@@ -125,7 +132,7 @@ module.exports = (() => {
                                         try {
                                             new URL(image)
                                         } catch {
-                                            return Toasts.error('This is an invalid URL!')
+                                            return Toasts.error('INVALID TY URL TY!')
                                         }
                                         this.settings.bannerUrl = image
                                     }
